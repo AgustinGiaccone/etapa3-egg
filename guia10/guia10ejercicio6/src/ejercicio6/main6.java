@@ -45,7 +45,8 @@ public class main6 {
                     System.out.println("Opcion incorrecta, ingrese una opcion del menu");
                     break;
             }
-            
+            //segunda prueba de github
+            //la primer prueba no funciono
             System.out.println();
         }
     }
