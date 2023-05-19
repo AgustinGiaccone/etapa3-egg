@@ -45,6 +45,7 @@ public class main6 {
                     System.out.println("Opcion incorrecta, ingrese una opcion del menu");
                     break;
             }
+            
             System.out.println();
         }
     }
