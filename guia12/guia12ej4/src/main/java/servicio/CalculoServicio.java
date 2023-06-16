@@ -8,25 +8,16 @@
 //resultado final.
 
 //Área circulo: PI * radio ^ 2 / Perímetro circulo: PI * diámetro.
-
 //Área rectángulo: base * altura / Perímetro rectángulo: (base + altura) * 2.
-package main;
+package servicio;
 
-import entidad.Circulo;
-import entidad.Rectangulo;
-
-public class Main {
-
-    public static void main(String[] args) {
-        
-        Circulo circulo = new Circulo(5);
-        Rectangulo rectangulo = new Rectangulo(4,7);
-        
-        System.out.println("el area del circulo es: "+ circulo.calcularArea());
-        System.out.println("el perimetro del circulo es: "+ circulo.calcularPerimetro());
-        System.out.println();
-        System.out.println("el area del rectangulo es: "+ rectangulo.calcularArea());
-        System.out.println("el perimetro del rectangulo es: "+ rectangulo.calcularPerimetro());
-        
-    }
+public interface CalculoServicio {
+     
+    public double PI = 3.1415;
+    
+    public void area();
+    
+    public void perimetro();
+            
+    
 }
